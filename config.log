@@ -1,0 +1,162 @@
+BASE_VERSION mismatch, recreating /home/alblay/.oe/environment-oecore
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+No packages will be installed, upgraded, or removed.
+0 packages upgraded, 0 newly installed, 0 to remove and 81 not upgraded.
+Need to get 0B of archives. After unpacking 0B will be used.
+Writing extended state information...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+spawn sudo dpkg-reconfigure -freadline dash
+n
+Configuring dash
+----------------
+
+The default /bin/sh shell on Debian and Debian-based systems is bash.
+
+Using dash as the system shell will improve the system's overall performance. It
+does not alter the shell presented to interactive users.
+
+[4mInstall dash as /bin/sh? [24m[1m[0m
+
+Removing `diversion of /bin/sh to /bin/sh.distrib by dash'
+Adding `diversion of /bin/sh to /bin/sh.distrib by bash'
+Removing `diversion of /usr/share/man/man1/sh.1.gz to /usr/share/man/man1/sh.distrib.1.gz by dash'
+Adding `diversion of /usr/share/man/man1/sh.1.gz to /usr/share/man/man1/sh.distrib.1.gz by bash'
+There now is a sourceable script in ~/.oe/enviroment. You can do '. /home/alblay/.oe/environment-oecore' and run 'bitbake something' without using ./oebb.sh as wrapper
+Configured layers:
+
+layer repository name: bitbake
+layer uri: git://github.com/openembedded/bitbake.git
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/bitbake, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/bitbake/.git/
+Layers present in repository:
+
+layer repository name: meta-angstrom
+layer uri: git://git.angstrom-distribution.org/meta-angstrom
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-angstrom, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-angstrom/.git/
+Layers present in repository:
+meta-angstrom
+
+layer repository name: meta-openembedded
+layer uri: git://github.com/openembedded/meta-oe.git
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-openembedded, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-openembedded/.git/
+Layers present in repository:
+meta-openembedded/meta-xfce
+meta-openembedded/meta-gnome
+meta-openembedded/meta-efl
+meta-openembedded/meta-gpe
+meta-openembedded/meta-oe
+
+layer repository name: meta-ti
+layer uri: git://git.angstrom-distribution.org/meta-texasinstruments
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-ti, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-ti/.git/
+Layers present in repository:
+meta-ti
+
+layer repository name: meta-ettus
+layer uri: git://github.com/balister/meta-ettus.git
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-ettus, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-ettus/.git/
+Layers present in repository:
+meta-ettus
+
+layer repository name: meta-efikamx
+layer uri: git://github.com/kraj/meta-efikamx.git
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-efikamx, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-efikamx/.git/
+Layers present in repository:
+meta-efikamx
+
+layer repository name: meta-nslu2
+layer uri: git://github.com/kraj/meta-nslu2.git
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-nslu2, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-nslu2/.git/
+Layers present in repository:
+meta-nslu2
+
+layer repository name: meta-smartphone
+layer uri: http://git.shr-project.org/repo/meta-smartphone.git
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-smartphone, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-smartphone/.git/
+Layers present in repository:
+meta-smartphone/meta-fso
+meta-smartphone/meta-osmocombb
+meta-smartphone/meta-htc
+meta-smartphone/meta-openmoko
+meta-smartphone/meta-palm
+meta-smartphone/meta-nokia
+meta-smartphone/meta-aurora
+meta-smartphone/meta-shr
+meta-smartphone/meta-samsung
+
+layer repository name: meta-intel
+layer uri: git://git.yoctoproject.org/meta-intel
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-intel, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-intel/.git/
+Layers present in repository:
+meta-intel/meta-emenlow
+meta-intel
+meta-intel/meta-sugarbay
+meta-intel/meta-fri2
+meta-intel/meta-fishriver
+meta-intel/meta-n450
+meta-intel/meta-romley
+meta-intel/meta-tlk
+meta-intel/meta-jasperforest
+meta-intel/meta-crownbay
+
+layer repository name: meta-xilinx
+layer uri: git://git.yoctoproject.org/meta-xilinx
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-xilinx, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-xilinx/.git/
+Layers present in repository:
+meta-xilinx
+
+layer repository name: meta-openpandora
+layer uri: git://github.com/openpandora/meta-openpandora.git
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-openpandora, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-openpandora/.git/
+Layers present in repository:
+meta-openpandora
+
+layer repository name: meta-handheld
+layer uri: git://git.openembedded.org/meta-handheld
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/meta-handheld, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/meta-handheld/.git/
+Layers present in repository:
+meta-handheld
+
+layer repository name: openembedded-core
+layer uri: git://github.com/openembedded/oe-core.git
+layer branch/revision: master/HEAD
+Layer checkout missing at /home/alblay/setup-scripts/sources/openembedded-core, creating one
+Initialized empty Git repository in /home/alblay/setup-scripts/sources/openembedded-core/.git/
+Layers present in repository:
+openembedded-core/meta
+openembedded-core/meta-skeleton
+
+
+Setup for beaglebone completed
